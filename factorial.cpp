@@ -5,16 +5,16 @@ int Fact(int n);
 int main()
 {
     int n;
-    cin>>n;
-    cout<<Fact(n);
+    cin >> n;
+    cout << "The Factorial of " << n << "is :" << Fact(n);
     return 0;
 }
 int Fact(int n)
 {
-    int mul=1;
-        for(int i=1;i<=n;i++)
-        {
-            mul=mul*i;        
-        }
+    int mul = 1;
+    for (int i = 1; i <= n; i++)
+    {
+        mul = mul * i;
+    }
     return (mul);
 }
